@@ -1,7 +1,7 @@
 const elFruit = document.querySelector('.fruit');
 
 let fruit = prompt('write fruit name in english', 'apple');
-let score = prompt('write your score', '1-100');
+let score = prompt('write your score', '86');
 let number = prompt('write number to check odd or even', '1');
 
 
@@ -45,9 +45,9 @@ if( score >= 86 && score <=100){
 }else if( score >= 60 && score <=85){
     console.log("You have passed and got B");
 }else if( score >= 45 && score <=59){
-    console.log("You have to retake the exam and got C");
+    console.log("You have to retake the exam and got C ");
 }else if( score >= 1 && score <=44){
-    console.log("You failed, Restudy. you got F");
+    console.log("You failed, Restudy. you got F ");
 }else{
     console.log('you did not entered valid score 1 to 100');
 };
