@@ -23,3 +23,10 @@ if ( browser == 'Edge' ){
 }
 
 // --------------------------------------------------------
+
+let message;
+ let login = 'Employee'
+
+ login == 'Employee' ? message = 'Hello mate' : login == 'Director' ? message = 'Greetings Boss' : login == '' ? message = '' : console.log('unknown user attemp to enter');
+
+ console.log(message);
