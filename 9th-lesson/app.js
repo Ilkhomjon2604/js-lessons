@@ -10,9 +10,14 @@ let switchValeu = (a, b) => {
     let c = a;
     a = b;
     b = c;
-    console.log(a,b);
-    return a + b
-
+    return `${a}  ${b}`
 }   
-
 console.log(switchValeu('IT', 'Acedumy'));
+
+// N3 Kabisa Year 
+
+let kabisaYear = (a) => {
+   return (a % 4 == 0) ? `${a} is Kabisa year` : `${a} is NOT Kabisa year`
+} 
+console.log(kabisaYear(2020));
+
