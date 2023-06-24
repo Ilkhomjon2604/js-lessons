@@ -36,3 +36,14 @@ let replaceSymbol = (x) =>{
    
 }
 console.log(replaceSymbol('Web#Brain#Academy'));
+
+// N6 choose uppercased letters 
+
+let upperCased = (a) =>{
+    let arr = [];
+    for (let i = 0; i<a.length; i++)
+        if (a[i] === a[i].toUpperCase())  arr.push(a[i])
+        
+    return arr.join('')
+}
+console.log(upperCased("WebBrainA"));
