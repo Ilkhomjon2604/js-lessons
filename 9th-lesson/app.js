@@ -53,3 +53,7 @@ console.log(upperCased("WebBrainA"));
 let repeatStr = (str) => str.repeat(str.length)
 
 console.log(repeatStr("WebBrain "));
+
+let str1 = 'WebBrain'
+str1= str1.replace('Web', 'IT ')
+console.log(str1.repeat(3));
