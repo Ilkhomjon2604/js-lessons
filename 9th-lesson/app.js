@@ -28,3 +28,11 @@ let MinAndMax = (x) =>{
    return `${(Math.max(...x))} is max number and ${(Math.min(...x))} is the min number `
 }
 console.log(MinAndMax('12548434'));
+
+// N5 Replace # to ()
+
+let replaceSymbol = (x) =>{
+  return x.replace(/#/g, '( )', )
+   
+}
+console.log(replaceSymbol('Web#Brain#Academy'));
