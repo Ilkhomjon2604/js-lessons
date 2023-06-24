@@ -21,3 +21,10 @@ let kabisaYear = (a) => {
 } 
 console.log(kabisaYear(2020));
 
+// N4 Min and max 
+
+let MinAndMax = (x) =>{
+    x = x.split('');   
+   return `${(Math.max(...x))} is max number and ${(Math.min(...x))} is the min number `
+}
+console.log(MinAndMax('12548434'));
