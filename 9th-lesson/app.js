@@ -43,7 +43,13 @@ let upperCased = (a) =>{
     let arr = [];
     for (let i = 0; i<a.length; i++)
         if (a[i] === a[i].toUpperCase())  arr.push(a[i])
-        
+
     return arr.join('')
 }
 console.log(upperCased("WebBrainA"));
+
+// N7 Repeat str 
+
+let repeatStr = (str) => str.repeat(str.length)
+
+console.log(repeatStr("WebBrain "));
