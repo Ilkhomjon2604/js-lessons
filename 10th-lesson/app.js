@@ -37,3 +37,25 @@
 // console.log(sum);
 
 // Task 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+let menu = {
+    width : 200,
+    height : 300, 
+    color : 'blue'
+}
+
+let multiplyMenu = (a) =>{
+
+    for (let i = 0; i < Object.values(a).length; i++){
+
+        if(!isNaN(Object.values(a)[i])){
+            Object.values(a)[i] = Object.values(a)[i] * 2
+            console.log(Object.values(a)[i]);
+        }
+
+    }
+    
+}
+
+multiplyMenu(menu)
+console.log(menu);
