@@ -8,13 +8,32 @@
 // delete user.name
 // console.log(user);
 
-let schadule = {};
+// Task 2 ======================================================================================
 
-let isEmpty = (a) =>  Object.keys(a).length ? false : true 
+// let schadule = {};
 
-alert( isEmpty(schadule))
+// let isEmpty = (a) =>  Object.keys(a).length ? false : true 
 
-schadule['8:30'] = 'Get up'
+// alert( isEmpty(schadule))
 
-alert( isEmpty(schadule))
+// schadule['8:30'] = 'Get up'
 
+// alert( isEmpty(schadule))
+
+// Task 3 -------------------------------------------------------------------------------------------
+
+// let salary = {
+//     John : 230,
+//     Sara : 190,
+//     Nick : 210
+// }
+// let sum = 0;
+
+// let length = Object.values(salary).length
+
+// for ( let i = 0; i<length; i++) sum += +Object.values(salary)[i]
+    
+
+// console.log(sum);
+
+// Task 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
