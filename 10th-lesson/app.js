@@ -46,15 +46,19 @@ let menu = {
 
 let multiplyMenu = (a) =>{
 
-    for (let i = 0; i < Object.values(a).length; i++){
+    // for (let i = 0; i < Object.values(a).length; i++){
 
-        if(!isNaN(Object.values(a)[i])){
-            Object.values(a)[i] = Object.values(a)[i] * 2
-            console.log(Object.values(a)[i]);
-        }
+    //     if(!isNaN(Object.values(a)[i])){
+    //        Object.values(a)[i]*2
+    //         console.log(Object.values(a)[i]);
+    //     }
 
-    }
+    // }
+
+    for (let key in a) if (typeof a[key] == 'number')  a[key] *= 2 
+       
     
+
 }
 
 multiplyMenu(menu)
