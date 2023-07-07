@@ -17,13 +17,13 @@
 //         name : 'web',
 //         age : 10
 //     }
-    
+
 //     for (const key in obj) {
 //         (typeof obj[key] == 'number') ? console.log(key): obj
 //     }
 
 
-    // No3
+// No3
 // object valuelarining boolean tipidagi malumotlrini qaytaring 
 // let obj={
 //         id:1,
@@ -38,34 +38,56 @@
 //     for (const key in obj) {
 //         if (typeof obj[key]== 'boolean') {
 //            newObj[key] = obj[key]
-            
+
 //         }
 //     }
-    // console.log(newObj);
+// console.log(newObj);
 
-    // N4 ______________________
+// N4 ______________________
 
-    let person = {
-    id: 1,
-    name: 'Odil',
-    age:78,
-    child: {
-        id: 1,
-        name: 'Ali',
-        age:48,
-        child: {
-            id: 1,
-            name: 'Umar',
-            age:20
-        }
-    }
-}
-let sum = 0
+// let person = {
+//     id: 1,
+//     name: 'Odil',
+//     age: 78,
+//     child: {
+//         id: 1,
+//         name: 'Ali',
+//         age: 48,
+//         child: {
+//             id: 1,
+//             name: 'Umar',
+//             age: 20
+//         }
+//     }
+// }
+// let sum = 0
 
-    while (person) {
-        sum+= person.age
-        person = person.child
-    }
-    console.log(sum);
+// while (person) {
+//     sum += person.age
+//     person = person.child
+// }
+// console.log(sum);
 // chiqish
 // 146
+
+// ++++++++++++++++++++++++++++++++++++++
+// N 5 
+person = {
+    id: 1,
+    name: 'Umar',
+    surname: 'Ismoilov',
+    ielts: 5.5,
+    student: true,
+    parol: 101
+}
+
+let enter = (login, parol) => {
+
+    if(login == person.name && parol == person.parol){
+        return console.log(`${person.name}, University ga hush kelibsiz`);
+    } else {
+        return console.log('Login yoki parol xato');
+    }
+}
+
+enter('Umar', 101)
