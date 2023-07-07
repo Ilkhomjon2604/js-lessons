@@ -38,28 +38,29 @@
 
 // Task 4 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-let menu = {
-    width : 200,
-    height : 300, 
-    color : 'blue'
-}
+// let menu = {
+//     width : 200,
+//     height : 300, 
+//     color : 'blue'
+// }
+// console.log(Object.keys(menu));
 
-let multiplyMenu = (a) =>{
+// let multiplyMenu = (a) =>{
 
-    // for (let i = 0; i < Object.values(a).length; i++){
+//     // for (let i = 0; i < Object.values(a).length; i++){
 
-    //     if(!isNaN(Object.values(a)[i])){
-    //        Object.values(a)[i]*2
-    //         console.log(Object.values(a)[i]);
-    //     }
+//     //     if(!isNaN(Object.values(a)[i])){
+//     //        Object.values(a)[i]*2
+//     //         console.log(Object.values(a)[i]);
+//     //     }
 
-    // }
+//     // }
 
-    for (let key in a) if (typeof a[key] == 'number')  a[key] *= 2 
+//     for (let key in a) if (typeof a[key] == 'number')  a[key] *= 2 
        
     
 
-}
+// }
 
-multiplyMenu(menu)
-console.log(menu);
+// multiplyMenu(menu)
+// console.log(menu);
