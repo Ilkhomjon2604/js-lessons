@@ -25,3 +25,20 @@
 
     // No3
 // object valuelarining boolean tipidagi malumotlrini qaytaring 
+// let obj={
+//         id:1,
+//         name:"WebBrain",
+//         offline:true,
+//         online:true,
+//         individual:false
+//     }
+
+//     let newObj = {};
+
+//     for (const key in obj) {
+//         if (typeof obj[key]== 'boolean') {
+//            newObj[key] = obj[key]
+            
+//         }
+//     }
+    console.log(newObj);
