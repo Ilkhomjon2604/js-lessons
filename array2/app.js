@@ -31,6 +31,8 @@ let cars = [
 // Task 3
 
 // let arr = [3, 2, 52, 12, 4, 34, 222]
+// let ordered = arr.sort((a, b)=> a-b)
+// console.log(ordered[0], ordered.at(-1));
 // console.log(Math.max(...arr), Math.min(...arr));
 
 // Task 4
