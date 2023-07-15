@@ -52,3 +52,15 @@
 // let onDelete = (a) => arr.filter((value)=> value !== a) 
 // console.log(onDelete('banana'));
 
+
+
+// function oddCount(n){
+//     let arr =[];
+//     for(let i = 1;  i < n; i+=2){
+//       arr.push(i)
+//     }
+//     console.log(arr.length);
+//     return arr.length
+//   }
+
+//   console.log(oddCount(15));
